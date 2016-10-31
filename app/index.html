@@ -14,14 +14,16 @@
     <!-- endbower -->
     <!-- endbuild -->
 
-
-
-
-    <!-- build:css styles/main.css -->
+<!-- build:css styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
+    
+<link rel="stylesheet" href="bower_components/bootswatch/cyborg/bootstrap.css" />
+
+
+    
     <!-- endbuild -->
 
-    <link rel="stylesheet" href="bower_components/bootswatch/cyborg/bootstrap.css" />
+    
     
     <!-- build:js scripts/vendor/modernizr.js -->
     <script src="/bower_components/modernizr/modernizr.js"></script>
@@ -35,37 +37,114 @@
     <div class="container">
       <div class="header">
         <ul class="nav nav-pills pull-right">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+            <li class="active"><a href="#accueil">Accueil</a></li>
+	        <li><a href="#parcours">Parcours</a></li>
+	        <li><a href="#competences">Competences</a></li>
+	        <li><a href="#contact">Contact</a></li>
         </ul>
         <h3 class="text-muted">moncv</h3>
       </div>
 
       <div class="jumbotron">
-        <h1>salut, comment vas</h1>
-        <p class="lead">Always a pleasure scaffolding your apps.</p>
-        <p><a class="btn btn-lg btn-success" href="#">Splendid!</a></p>
+        <img src="images/1.png" alt="charifi" class="img-circle">
+        <h1>Hassane Charifi </h1>
+        <p class="lead">Bonjour ! J’ai 28ans et je suis d’origine marocaine <br>
+         Je suis étudiant à la HEG-ARC  <br>
+        </p>
       </div>
 
-      <div class="row marketing">
-        <div class="col-lg-6">
-          <h4>HTML5 Boilerplate</h4>
-          <p>HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.</p>
+      <div id="parcours">
+        <h2> Parcours </h2> 
+            <div class="list">
+                  FORMATIONS
+                      <ul>
+                        <li> Étudiant à ARC-NEUCHATEL 2015/2017 </li>
+                        <li> Étudiant à la HEIG-VD 2011/2015</li>
+                        <li> Diplôme de technicien spécialise en développement informatique 2009/2010</li>
+                        <li> Baccalauréat série Sciences Expérimentales Option Sciences physique 2007/2008</li>
+                      </ul>
+            </div>
 
-          <h4>Sass</h4>
-          <p>Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.</p>
+            <div class="list">
+                  EXPERIENCE
 
-          <h4>Bootstrap</h4>
-          <p>Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.</p>
-
-          <h4>Modernizr</h4>
-          <p>Modernizr is an open-source JavaScript library that helps you build the next generation of HTML5 and CSS3-powered websites.</p>
-        </div>
+                      <ul>
+                        <li> JUGGERS SECURITE: Agents de sécurité à Lausanne 2012/2016.</li>
+                        <li> Promoteur/Vendeur: SmilProduction – EmasolPromotion 2015/2016.</li>
+                        <li> Stage: au sein de la société G4S MAROC 2010/2011.</li>
+                        <li> Stage: au sein de l'entreprise AFRIQUE ORIENT 2009/2010.</li>
+                      </ul>
+            </div>
       </div>
+
+      <div id="competences">
+                <h2> Competences </h2> <br>
+                <div class="row">
+                    <div class="col-xs-6 col-md-6">
+                        <div class="barre">
+                            <div class="moyen"></div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-md-6">
+                         Programmation Client/Serveur
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-6 col-md-6">
+                        <div class="barre">
+                            <div class="excelent"></div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-md-6">
+                         HTML, CSS, Java Script, XML.
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-6 col-md-6">
+                        <div class="barre">
+                            <div class="faible"></div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-md-6">
+                         SQLSERVER, ORACLE, MYSQL.
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-6 col-md-6">
+                        <div class="barre">
+                            <div class="bien"></div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-md-6">
+                         WordPress, Joomla, Magento
+                    </div>
+                </div>
+
+            </div>
+
+             <div id="contact" width="100%">
+                <h2> Contact </h2> <br>
+
+                <address>
+                    <span class="glyphicon glyphicon-user" aria-hidden="true"></span> <strong>Mr Hassane Charifi</strong> <br>
+                    <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Rue jean-andré venel9 <br>
+                    <span class="glyphicon glyphicon-phone" aria-hidden="true"></span> 0786310828  <br>
+                     hassane.charifi@gmail.com
+                </address>            
+            </div>
 
       <div class="footer">
-        <p>♥ from the Yeoman team</p>
+        <div class="row">
+            <div class="col-xs-6 col-md-6">
+                  © Copyright 2016
+            </div>
+            <div class="col-xs-6 col-md-6">
+                  <p> Crées par <a href="#">hassane charifi</a>  </p>
+            </div>
+        </div>
       </div>
     </div>
     
